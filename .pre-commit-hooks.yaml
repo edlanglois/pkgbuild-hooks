@@ -1,0 +1,7 @@
+- id: srcinfo-fixer
+  name: .SRCINFO Fixer
+  description: Update .SRCINFO files based on PKGBUILD
+  entry: srcinfo-fixer
+  language: python
+  files: '^(PKGBUILD|.SRCINFO)$'
+  pass_filenames: false
