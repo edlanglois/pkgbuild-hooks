@@ -5,3 +5,10 @@
   language: python
   files: '^(PKGBUILD|.SRCINFO)$'
   pass_filenames: false
+- id: verify-srcinfo-checksums
+  name: .SRCINFO checksums
+  description: Verify .SRCINFO checksums for local files.
+  entry: verify-srcinfo-checksums
+  language: python
+  always_run: true
+  pass_filenames: false
