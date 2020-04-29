@@ -6,7 +6,7 @@
   files: '^(PKGBUILD|.SRCINFO)$'
   pass_filenames: false
 - id: verify-srcinfo-checksums
-  name: .SRCINFO checksums
+  name: .SRCINFO Checksums
   description: Verify .SRCINFO checksums for local files.
   entry: verify-srcinfo-checksums
   language: python
