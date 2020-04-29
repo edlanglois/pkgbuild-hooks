@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """Check .SRCINFO against makepkg and update if necessary."""
 import subprocess
 import sys
